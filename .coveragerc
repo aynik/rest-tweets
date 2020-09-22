@@ -1,0 +1,6 @@
+# .coveragerc
+[report]
+show_missing = True
+omit =
+    api/__init__.py
+    api/__main__.py
