@@ -104,12 +104,12 @@ Open your preferred browser and (using an extension) set the `Authorization` hea
 Use the following commands (one line per request):
 
 ```shell
-curl -H "Authorization; Bearer <bearer token>" http://127.0.0.1:8080/hashtags/python
-curl -H "Authorization; Bearer <bearer token>" http://127.0.0.1:8080/hashtags/python?limit=1
-curl -H "Authorization; Bearer <bearer token>" http://127.0.0.1:8080/hashtags/python?limit=10
-curl -H "Authorization; Bearer <bearer token>" http://127.0.0.1:8080/users/elonmusk
-curl -H "Authorization; Bearer <bearer token>" http://127.0.0.1:8080/users/elonmusk?limit=1
-curl -H "Authorization; Bearer <bearer token>" http://127.0.0.1:8080/users/elonmusk?limit=10
+curl -H "Authorization: Bearer <bearer token>" http://127.0.0.1:8080/hashtags/python
+curl -H "Authorization: Bearer <bearer token>" http://127.0.0.1:8080/hashtags/python?limit=1
+curl -H "Authorization: Bearer <bearer token>" http://127.0.0.1:8080/hashtags/python?limit=10
+curl -H "Authorization: Bearer <bearer token>" http://127.0.0.1:8080/users/elonmusk
+curl -H "Authorization: Bearer <bearer token>" http://127.0.0.1:8080/users/elonmusk?limit=1
+curl -H "Authorization: Bearer <bearer token>" http://127.0.0.1:8080/users/elonmusk?limit=10
 ```
 
 > Tip: beautify the output of the responses using [jq](https://stedolan.github.io/jq/download/).
